@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var race_service_1 = require('./race.service');
+var race_service_1 = require('./services/race.service');
 var RacesComponent = (function () {
     function RacesComponent(raceService) {
         this.raceService = raceService;
@@ -53,7 +53,7 @@ var RacesComponent = (function () {
         core_1.Component({
             selector: 'my-races',
             templateUrl: 'app/races.component.html',
-            styleUrls: ['app/races.component.css']
+            styleUrls: ['css/races.component.css']
         }), 
         __metadata('design:paramtypes', [race_service_1.RaceService])
     ], RacesComponent);

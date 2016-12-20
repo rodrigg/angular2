@@ -9,8 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var race_1 = require('./race');
-var raceScore_service_1 = require('./raceScore.service');
+var race_1 = require('./pojo/race');
+var raceScore_service_1 = require('./services/raceScore.service');
 var ScoreboardItemComponent = (function () {
     function ScoreboardItemComponent(raceScoreService) {
         this.raceScoreService = raceScoreService;

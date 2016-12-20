@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var scoreboardItem_component_1 = require('./scoreboardItem.component');
-var race_service_1 = require('./race.service');
+var race_service_1 = require('./services/race.service');
 var ScoreboardComponent = (function () {
     function ScoreboardComponent(raceService) {
         this.raceService = raceService;

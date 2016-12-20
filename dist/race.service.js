@@ -8,7 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+port;
+{
+    Injectable;
+}
+from;
+'@angular/core';
 var http_1 = require('@angular/http');
 require('rxjs/add/operator/map');
 var RaceService = (function () {
@@ -20,7 +25,7 @@ var RaceService = (function () {
             .map(function (response) { return response.json().racesData; });
     };
     RaceService = __decorate([
-        core_1.Injectable(), 
+        Injectable(), 
         __metadata('design:paramtypes', [http_1.Http])
     ], RaceService);
     return RaceService;

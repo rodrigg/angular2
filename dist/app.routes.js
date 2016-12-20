@@ -1,8 +1,8 @@
 "use strict";
 var router_1 = require('@angular/router');
-var races_component_1 = require('./races.component');
-var scoreboard_component_1 = require('./scoreboard.component');
-var about_component_1 = require('./about.component');
+var races_component_1 = require('./components/races.component');
+var scoreboard_component_1 = require('./components/scoreboard.component');
+var about_component_1 = require('./components/about.component');
 exports.routes = [
     { path: '', component: about_component_1.AboutComponent },
     { path: 'schedule', component: races_component_1.RacesComponent },

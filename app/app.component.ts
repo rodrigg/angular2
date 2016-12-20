@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { RaceService } from './race.service'
+import { RaceService } from './services/race.service'
 import { HTTP_PROVIDERS } from '@angular/http'
 import { ROUTER_DIRECTIVES } from '@angular/router'
 

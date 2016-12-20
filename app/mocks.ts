@@ -1,4 +1,4 @@
-import { Race } from './race';
+import { Race } from './pojo/race';
 
 export const RACES: Race[] = [{
   "id": 1,

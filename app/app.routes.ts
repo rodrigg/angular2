@@ -1,7 +1,7 @@
 import { provideRouter, RouterConfig } from '@angular/router'
-import { RacesComponent } from './races.component'
-import { ScoreboardComponent } from './scoreboard.component'
-import { AboutComponent } from './about.component'
+import { RacesComponent } from './components/races.component'
+import { ScoreboardComponent } from './components/scoreboard.component'
+import { AboutComponent } from './components/about.component'
 
 export const routes: RouterConfig = [
   { path: '', component: AboutComponent },
